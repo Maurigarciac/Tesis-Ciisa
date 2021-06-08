@@ -104,7 +104,7 @@ public class ImedReports {
     //crea directorio /tmp
     public static void crearDirectorio() {
 
-        File file = new File(pathArchivo.concat("\\tmp"));
+        File file = new File(pathArchivo.concat("\\HTMLREPORTS\\tmp"));
         if (!file.exists()) {
             if (file.mkdir()) {
                 System.out.println("Directory is created!");
