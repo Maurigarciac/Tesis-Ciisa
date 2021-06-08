@@ -7,6 +7,8 @@ import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.annotations.*;
 import utils.HtmlReport;
+import utils.ZipUtilis;
+
 import static reportePdf.ImedReports.*;
 
 import java.lang.reflect.Method;
@@ -28,9 +30,11 @@ public class BaseWeb {
     }
 
     @AfterSuite
-    //@Parameters({"carpetaReporte"})
-    public void afterSuite(ITestContext testContext) {
+    @Parameters({"carpetaReporte"})
+    public void afterSuite(ITestContext testContext, String carpetaReporte) {
         HtmlReport.endReport();
+        ZipUtilis zip = new ZipUtilis(carpetaReporte);
+        zip.generarReporte();
 
     }
 

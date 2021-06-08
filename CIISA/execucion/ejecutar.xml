@@ -2,6 +2,7 @@
 
 <suite name="TOLLS_QA">
     <parameter name="browser" value="Chrome"></parameter>
+    <parameter name="carpetaReporte" value="C:\Jenkins\report"></parameter>
 
     <test name="INGRESO TOOLS QA LOGIN">
         <classes>
