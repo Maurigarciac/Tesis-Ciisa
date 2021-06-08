@@ -17,7 +17,7 @@ public class ZipUtilis {
     private final List<String> fileList;
     private static String OUTPUT_ZIP_FILE = "Folder.zip";
    // private static String SOURCE_FOLDER = System.getProperty("user.dir")+ "\\test\\resources\\reports\\"; // SourceFolder path
-    private static String SOURCE_FOLDER = System.getProperty("user.dir")+ "tmp\\"; // SourceFolder path
+    private static String SOURCE_FOLDER = System.getProperty("user.dir")+ "\\tmp"; // SourceFolder path
     private static String zipDate;
 
     public ZipUtilis(String output) {
