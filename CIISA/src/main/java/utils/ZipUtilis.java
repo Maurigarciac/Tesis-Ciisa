@@ -31,7 +31,7 @@ public class ZipUtilis {
         //OUTPUT_ZIP_FILE = System.getProperty("user.home")+"\\"+output+"\\"+HtmlReport.getSuite()+"_"+zipDate+".zip";
         //Ruta C:\
        // OUTPUT_ZIP_FILE = output+"\\"+HtmlReport.getSuite()+"_"+zipDate+".zip";
-        OUTPUT_ZIP_FILE = output+zipDate;
+        OUTPUT_ZIP_FILE = output+"_"+zipDate+".zip";
         System.out.println("OUTPUT: "+ OUTPUT_ZIP_FILE);
         //SOURCE_FOLDER = HtmlReport.getReportPath() + HtmlReport.getSuite();
 
