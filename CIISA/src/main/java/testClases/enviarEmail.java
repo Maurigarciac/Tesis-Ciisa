@@ -1,6 +1,6 @@
 package testClases;
 
-import Base.BaseWeb;
+
 import email.Email;
 import org.testng.annotations.Test;
 
@@ -8,12 +8,12 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class enviarEmail extends BaseWeb {
+public class enviarEmail {
     private static String fecha;
 
 
 
-    @Test(groups = {"Ingresar al TOLLS QA FORMULARIOS"},description = "TOOLSQA ")
+    @Test()
     public void enviarEmail(){
         DateFormat dateFormat = new SimpleDateFormat("yyyy_MM_dd");
         Date date = new Date();
