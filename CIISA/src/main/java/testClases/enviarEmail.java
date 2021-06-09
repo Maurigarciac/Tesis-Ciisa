@@ -21,7 +21,7 @@ public class enviarEmail {
 
 
         Email email = new Email();
-        email.setDestinatario("maurigarciac88@gmail.com");
+        email.setDestinatario("rodrigo.e.maltez@gmail.com");
         email.setAsunto("Reporte Ejecucion");
         email.configurarCabeceraEmail();
         email.setFileFolder("C:\\jenkins");
