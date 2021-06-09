@@ -1,8 +1,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
 <suite name="email">
-    <parameter name="browser" value="Chrome"></parameter>
-    <parameter name="carpetaReporte" value="C:\Jenkins\report"></parameter>
+
 
     <test name="enviar email">
         <classes>
