@@ -4,17 +4,28 @@ import Base.BaseWeb;
 import email.Email;
 import org.testng.annotations.Test;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class enviarEmail extends BaseWeb {
+    private static String fecha;
+
+
 
     @Test(groups = {"Ingresar al TOLLS QA FORMULARIOS"},description = "TOOLSQA ")
     public void enviarEmail(){
+        DateFormat dateFormat = new SimpleDateFormat("yyyy_MM_dd");
+        Date date = new Date();
+        fecha = dateFormat.format(date);
+
 
         Email email = new Email();
         email.setDestinatario("maurigarciac88@gmail.com");
-        email.setAsunto("Asunto de prueba");
+        email.setAsunto("Reporte Ejecucion");
         email.configurarCabeceraEmail();
         email.setFileFolder("C:\\jenkins");
-        email.setFileName("report_2021_06_09.zip");
+        email.setFileName("report"+"_"+fecha+".zip");
         email.configurarCuerpoEmail();
         email.enviarMensaje();
 
