@@ -32,6 +32,11 @@
         </classes>
     </test>
 
+    <test name="email">
+        <classes>
+            <class name="testClases.enviarEmail"></class>
+        </classes>
+    </test>
 </suite>
 
 
