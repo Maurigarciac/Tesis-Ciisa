@@ -1,0 +1,15 @@
+
+K
+java:S1444"0Make this "public static USER_EMAIL" field final(½ƒ¢úÿÿÿÿ
+K
+java:S1444"0Make this "public static PASS_EMAIL" field final(ûÊÕŠúÿÿÿÿ
+q
+java:S1104"VMake USER_EMAIL a static final constant or non-public and provide accessors if needed.(½ƒ¢úÿÿÿÿ
+q
+java:S1104"VMake PASS_EMAIL a static final constant or non-public and provide accessors if needed.(ûÊÕŠúÿÿÿÿ
+p
+java:S3008"URename this field "USER_EMAIL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ƒ¢úÿÿÿÿ
+p
+java:S3008"URename this field "PASS_EMAIL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÊÕŠúÿÿÿÿ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(ÂºŞî

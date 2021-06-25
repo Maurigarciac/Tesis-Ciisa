@@ -41,7 +41,7 @@ public class HtmlReport {
     private ITestContext testContext;
     public HtmlReport(String suiteName) {
         reports = new ExtentReports();
-        spark = new ExtentSparkReporter(URL_REPORT + suiteName + "\\ReporteEjecuciOn.html").viewConfigurer().viewOrder()
+        spark = new ExtentSparkReporter(URL_REPORT + suiteName + "\\Reporte.html").viewConfigurer().viewOrder()
                 .as(new ViewName[] {
                         ViewName.DASHBOARD,
                         ViewName.CATEGORY,

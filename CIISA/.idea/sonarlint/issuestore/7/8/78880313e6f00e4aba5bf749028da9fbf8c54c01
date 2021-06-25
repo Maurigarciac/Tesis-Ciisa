@@ -1,0 +1,38 @@
+
+A
+java:S1444!"+Make this "public static spark" field final(Á½ë³
+E
+java:S3740C"/Provide the parametrized type for this generic.(ÁÃÉ¥
+K
+java:S3740Š"/Provide the parametrized type for this generic.(ÄÅáêýÿÿÿÿ
+\
+java:S1192j"FDefine a constant instead of duplicating this literal "PASO " 3 times.(œ—±å
+E
+java:S5411k"*Use the primitive boolean expression here.(é‘ôãÿÿÿÿÿ
+g
+java:S1104!"QMake spark a static final constant or non-public and provide accessors if needed.(Á½ë³
+k
+java:S3008("URename this field "URL_REPORT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í×—Ç
+=
+java:S2885#"'Make "dateFormat" an instance variable.(•ÊºÇ
+Q	java:S125'"<This block of commented-out lines of code should be removed.(õý§ä
+:
+java:S3010+"$Remove this assignment of "reports".(žñòÒ
+=
+java:S3010,""Remove this assignment of "spark".(Á•ì–ÿÿÿÿÿ
+8
+java:S3010A""Remove this assignment of "suite".(§ãàá
+7
+java:S3010B"!Remove this assignment of "paso".(™”èð
+@
+java:S3010C"*Remove this assignment of "errorMessages".(ÁÃÉ¥
+n
+java:S38788"SDisambiguate this call by either casting as "ExtentObserver" or "ExtentObserver[]".(üœ¹èüÿÿÿÿ
+=
+java:S1905\"'Remove this unnecessary cast to "File".(òÅ «
+N	java:S106e"9Replace this use of System.out or System.err by a logger.(š²ÞÙ
+O	java:S106°"9Replace this use of System.out or System.err by a logger.(ƒôÒÝ
+D
+java:S1068#".Remove this unused "dateFormat" private field.(•ÊºÇ
+J
+java:S1068)"/Remove this unused "testContext" private field.(ÎœÛ»øÿÿÿÿ

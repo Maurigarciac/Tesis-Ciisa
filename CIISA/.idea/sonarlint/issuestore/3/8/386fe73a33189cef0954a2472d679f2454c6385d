@@ -1,0 +1,9 @@
+
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÂƒÜí
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™ß˜Ÿ
+g
+java:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(¤Íà«ÿÿÿÿÿ
+j
+java:S1450"TRemove the "fecha" field and declare it as a local variable in the relevant methods.(…Âõ
+Q
+java:S2696"6Make the enclosing method "static" or remove this set.(ûŞï¬øÿÿÿÿ

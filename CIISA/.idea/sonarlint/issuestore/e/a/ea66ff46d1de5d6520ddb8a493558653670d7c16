@@ -1,0 +1,26 @@
+
+W
+java:S2259b"AA "NullPointerException" could be thrown; "zos" is nullable here.(Öãü×
+[
+java:S2259W"@A "NullPointerException" could be thrown; "in" is nullable here.(€¶º‡ıÿÿÿÿ
+p
+java:S3008"ZRename this field "OUTPUT_ZIP_FILE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ™é
+m
+java:S3008"XRename this field "SOURCE_FOLDER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ˆç 
+?
+java:S3010"$Remove this assignment of "zipDate".(‘ı€·ùÿÿÿÿ
+G
+java:S3010"",Remove this assignment of "OUTPUT_ZIP_FILE".(ªĞñúÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(òËã”ùÿÿÿÿ
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(äÒÓ×
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(ÌÌˆƒ
+Q	java:S125$"<This block of commented-out lines of code should be removed.(Úñé»
+S	java:S106."9Replace this use of System.out or System.err by a logger.(Âº™êúÿÿÿÿ
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(“…±ûÿÿÿÿ
+N	java:S106I"9Replace this use of System.out or System.err by a logger.(õ›ğñ
+N	java:S106M"9Replace this use of System.out or System.err by a logger.(š­Å
+E
+java:S2093P"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+N	java:S106\"9Replace this use of System.out or System.err by a logger.(ËšÄ®
+E
+java:S2093E"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
