@@ -26,10 +26,14 @@ public class homeTollsQA {
 
 
 
-    @FindBy(xpath = "//body[1]/div[1]/header[1]/a[1]/img[1]")
+   // @FindBy(xpath = "//body[1]/div[1]/header[1]/a[1]/img[1]")
+    @FindBy(xpath = "//*[@id=\"app\"]/header/a/img")
+
     private WebElement imgToolsQA;
 
-    @FindBy(xpath = "//body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]")
+   // @FindBy(xpath = "//body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]")
+    @FindBy(xpath = " //*[@id=\"app\"]/div/div/div[2]/div/div[1]")
+
     private WebElement botonElements;
 
 
