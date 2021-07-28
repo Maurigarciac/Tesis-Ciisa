@@ -9,30 +9,6 @@
             <class name="testClases.CPA001LOGIN" />
         </classes>
     </test>
-
-
-    <test name="INGRESO TOOLS QA CHECKBOX ">
-        <classes>
-            <class name="testClases.CPA002CheckBox" />
-        </classes>
-    </test>
-    <test name="INGRESO TOOLS QA RADIO BUTTON">
-        <classes>
-            <class name="testClases.CPA003RadioButton" />
-        </classes>
-    </test>
-    <test name="INGRESO TOOLS QA WEBTABLE ">
-        <classes>
-            <class name="testClases.CPA004WebTable" />
-        </classes>
-    </test>
-    <test name="INGRESO TOOLS QA formularios">
-        <classes>
-            <class name="testClases.CPA005Form" />
-        </classes>
-    </test>
-
-
 </suite>
 
 
